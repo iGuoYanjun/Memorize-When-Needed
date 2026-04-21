@@ -1,0 +1,17 @@
+[
+  {
+    "img": "img/scene_01_modern_interior.png",
+    "prompt": "The video features a modern interior with a minimalist design, showcasing a dark gray sectional sofa, a unique metallic coffee table, and a large abstract painting on the wall. The room is well-lit by natural light from floor-to-ceiling windows that offer a view of a cityscape. A sleek kitchen with light gray cabinetry and white countertops is visible, along with a central island with four high stools. The space is clean and uncluttered, with a bowl of fruit on the island adding a touch of color. The kitchen's design is highlighted by the natural light and the absence of personal items.",
+    "pose": "pose/cam0.txt"
+  },
+  {
+    "img": "img/scene_02_nordic_fjord.png",
+    "prompt": "Nordic fjord-side village scene with still water and a complete reflection; colorful wooden cabins and houses (red, yellow, white) scattered along a stone-lined shore and lush green hillside; snow-capped mountains in the distance under a blue sky; crisp natural daylight; photorealistic style, rich colors, detailed textures.",
+    "pose": "pose/cam1.txt"
+  },
+  {
+    "img": "img/scene_03_stone_neighborhood.png",
+    "prompt": "A corner of a traditional stone-built neighborhood with low-rise masonry buildings arranged along intersecting cobblestone streets. The structures have flat and gently sloped roofs, tall rectangular windows, and simple stone detailing. Leafless trees stand along the sidewalk, spaced between the buildings. The environment appears quiet and open, with neutral stone colors and overcast daylight.",
+    "pose": "pose/cam2.txt"
+  }
+]
