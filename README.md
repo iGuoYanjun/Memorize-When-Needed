@@ -38,12 +38,12 @@
 
 <p align="center">
   <a href="">
-    <img src="assets/fig1.png" alt="Teaser" width="80%">
+    <img src="assets/fig1.png" alt="Teaser" width="90%">
   </a>
 </p>
 
 
-<table align="center" width="950">
+<table align="center" width="900">
   <tr>
     <td>
       <p align="justify">
