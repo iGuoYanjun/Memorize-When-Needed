@@ -58,7 +58,7 @@
 
 ## 📰 News
 - **[2026.04]** We release our paper on [arXiv](https://arxiv.org/abs/2604.18215).
-- **[2026.04]** We release model based on **Wan2.1**.
+- **[2026.04]** We release model [Huggingface](https://huggingface.co/Guoyanjun/MemorizeWhenNeed) based on **Wan2.1**.
 - **[2026.04]** We release the test data on [Huggingface](https://huggingface.co/Guoyanjun/MemorizeWhenNeed) used in our paper to make easier evaluation.
 
 ## 🎥 Visual Results
