@@ -7,7 +7,7 @@
   ·
   <a href="https://scholar.google.com/citations?user=UX26wSMAAAAJ&hl=en">Zhengqiang Zhang</a> <sup>1,2,*</sup>
   ·
-  <a href="https://scholar.google.com/citations?user=zAAYwRYAAAAJ&hl=en">Pengfei Wang*</a> <sup>1,*</sup>
+  <a href="https://scholar.google.com/citations?user=zAAYwRYAAAAJ&hl=en">Pengfei Wang</a> <sup>1,*</sup>
   ·
   <a href="https://scholar.google.com/citations?user=R9PlnKgAAAAJ&hl=zh-CN">Xinyue Liang</a> <sup>1</sup>
   ·
