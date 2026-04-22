@@ -13,7 +13,7 @@
   ·
   <a href="https://scholar.google.com/citations?user=F15mLDYAAAAJ&hl=en">Zhiyuan Ma</a> <sup>1</sup>
   ·
-  <a href="https://scholar.google.com/citations?user=tAK5l1IAAAAJ&hl=en">Lei Zhang†</a> <sup>1,2</sup>
+  <a href="https://scholar.google.com/citations?user=tAK5l1IAAAAJ&hl=en">Lei Zhang</a> <sup>1,2.†</sup>
 </p>
 
 <p align="center">
