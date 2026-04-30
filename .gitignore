@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Local checkpoints and generated outputs
+checkpoints/
+results/
+results_*/
+results_temp_vae/
+*_temp_vae/
+__pycache__/
+*.pyc
+*.mp4

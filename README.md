@@ -7,13 +7,13 @@
   ·
   <a href="https://scholar.google.com/citations?user=UX26wSMAAAAJ&hl=en">Zhengqiang Zhang</a> <sup>1,2,*</sup>
   ·
-  <a href="https://scholar.google.com/citations?user=zAAYwRYAAAAJ&hl=en">Pengfei Wang*</a> <sup>1,*</sup>
+  <a href="https://scholar.google.com/citations?user=zAAYwRYAAAAJ&hl=en">Pengfei Wang</a> <sup>1,*</sup>
   ·
   <a href="https://scholar.google.com/citations?user=R9PlnKgAAAAJ&hl=zh-CN">Xinyue Liang</a> <sup>1</sup>
   ·
   <a href="https://scholar.google.com/citations?user=F15mLDYAAAAJ&hl=en">Zhiyuan Ma</a> <sup>1</sup>
   ·
-  <a href="https://scholar.google.com/citations?user=tAK5l1IAAAAJ&hl=en">Lei Zhang†</a> <sup>1,2</sup>
+  <a href="https://scholar.google.com/citations?user=tAK5l1IAAAAJ&hl=en">Lei Zhang</a> <sup>1,2.†</sup>
 </p>
 
 <p align="center">
@@ -71,33 +71,41 @@
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none; padding: 8px;">
+      <p><strong>RealEstate10K Example 1</strong></p>
       <video src="https://github.com/user-attachments/assets/f6051729-6a3a-4a78-813e-81f2a668eb7d" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
+      <p><strong>RealEstate10K Example 2</strong></p>
       <video src="https://github.com/user-attachments/assets/cda44ab0-99e4-4ac7-a40d-a85926e2f921" width="420" controls></video>
     </td>
   </tr>
   <tr>
     <td align="center" style="border: none; padding: 8px;">
+      <p><strong>OOD Example 1</strong></p>
       <video src="https://github.com/user-attachments/assets/32e74a0b-b82c-472d-baed-b8ce0112f99f" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
+      <p><strong>OOD Example 2</strong></p>
       <video src="https://github.com/user-attachments/assets/ef9942cb-477e-439d-bab8-cfd8982f1dd3" width="420" controls></video>
     </td>
   </tr>
   <tr>
     <td align="center" style="border: none; padding: 8px;">
+      <p><strong>OOD Example 3</strong></p>
       <video src="https://github.com/user-attachments/assets/9498c941-08c0-4c29-aeac-64ed0e4e6c4f" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
+      <p><strong>OOD Example 4</strong></p>
       <video src="https://github.com/user-attachments/assets/3c354740-8256-4d3a-9057-84b568628456" width="420" controls></video>
     </td>
   </tr>
   <tr>
     <td align="center" style="border: none; padding: 8px;">
+      <p><strong>OOD Example 5</strong></p>
       <video src="https://github.com/user-attachments/assets/85c1377d-613a-4551-8724-c0e763a08645" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
+      <p><strong>OOD Example 6</strong></p>
       <video src="https://github.com/user-attachments/assets/fb07e86f-c9fb-40e3-b3c2-82e131ce7377" width="420" controls></video>
     </td>
   </tr>
@@ -183,6 +191,42 @@ checkpoints/
     └── diffusion_pytorch_model.safetensors
 ```
 
+### Code Usage
+
+We provide `infer.sh` as a simple launcher for testing the released assets. By default, it reads `./assets/prompt.json`, uses the checkpoints under `./checkpoints`, and writes results to `./results`.
+
+```bash
+bash infer.sh
+```
+
+You can also override the default paths and inference settings from the command line:
+
+```bash
+PRETRAINED_MODEL_NAME_OR_PATH=./checkpoints/Wan2.1-I2V-14B-480P \
+CONFIG_PATH=./config/wan2.1/wan_civitai.yaml \
+METADATA_PATH=./assets/prompt.json \
+CONTROLNET_CKPT_DIR=./checkpoints/camera_controlnet \
+HISTORY_CONTROLNET_CKPT=./checkpoints/history_controlnet \
+OUTPUT_DIR=./results \
+GPU_ID=0 \
+NUM_INFERENCE_STEPS=40 \
+bash infer.sh
+```
+
+Each sample in `assets/prompt.json` should provide the input image, text prompt, and camera pose file:
+
+The text prompt has a clear impact on generation quality, so we recommend using descriptions that follow the prompting style of Wan2.1.
+
+```json
+{
+  "img": "img/scene_01_modern_interior.png",
+  "prompt": "A text prompt for video generation.",
+  "pose": "pose/cam0.txt"
+}
+```
+
+The generated videos are saved under `OUTPUT_DIR`.
+
 
 ## 🔗 BibTeX
 ```
@@ -196,7 +240,7 @@ checkpoints/
 
 
 ## Contact
-Please send emails to yanjunn.guo@connect.polyu.hk if there is any question
+Please send emails to yanjunn.guo@connect.polyu.hk if there is any question.
 
 ## Acknowledgements
-We would like to thank the contributors to [WorldMem](https://github.com/xizaoqu/WorldMem), [Wan2.1](https://github.com/Wan-Video/Wan2.1), [VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun), [AC3D](https://github.com/snap-research/ac3d), and [CogVideoX](https://github.com/zai-org/CogVideo) for their open-source code and inspiring research, which greatly informed the development of our codebase.
+We would like to thank the contributors to [Wan2.1](https://github.com/Wan-Video/Wan2.1), [VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun), [AC3D](https://github.com/snap-research/ac3d), [WorldMem](https://github.com/xizaoqu/WorldMem), and [CogVideoX](https://github.com/zai-org/CogVideo) for their open-source code and inspiring research, which greatly informed the development of our codebase.
