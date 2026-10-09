@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/7d56f5e4-afa9-4052-b870-7432d20e539e
 <p align="center">
   <h2 align="center"> Memorize When Needed:  <br>  Decoupled Memory Control for Spatially Consistent Long-Horizon Video Generation </h2>
 </p>
