@@ -87,7 +87,7 @@
     </td>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>RealEstate10K Example 2</strong></p>
-      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/02_results_gallery/RealEstate10K_06.mp4" width="420" controls></video>
+      <video src="https://github.com/user-attachments/assets/c109c26d-01d2-4f51-9cb6-a19fe543cee8" width="420" controls></video>
     </td>
   </tr>
   <tr>
@@ -125,7 +125,6 @@
 <div align="center">
 
 
-https://github.com/user-attachments/assets/1bda488b-c34a-40ce-957b-90b133489fb4
 
 
 
