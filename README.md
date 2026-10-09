@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/7d56f5e4-afa9-4052-b870-7432d20e539e
 <p align="center">
   <h2 align="center"> Memorize When Needed:  <br>  Decoupled Memory Control for Spatially Consistent Long-Horizon Video Generation </h2>
 </p>
@@ -72,6 +74,7 @@
 - **[2026.04]** We release model [Huggingface](https://huggingface.co/Guoyanjun/MemorizeWhenNeed) based on **Wan2.1**.
 
 
+
 ## 🎥 Visual Results
 
 <div align="center">
@@ -93,36 +96,40 @@
   <tr>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 1</strong></p>
-      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/06.mp4" width="420" controls></video>
+      <video src="https://github.com/user-attachments/assets/9cb6f5e5-57c2-4d88-9215-b27cb7d7ba98" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 2</strong></p>
-      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/03.mp4" width="420" controls></video>
+      <video src="https://github.com/user-attachments/assets/f48de426-4607-4caf-a63b-2939a7c68112" width="420" controls></video>
     </td>
   </tr>
   <tr>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 3</strong></p>
-      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/01.mp4" width="420" controls></video>
+      <video src="https://github.com/user-attachments/assets/47d2070b-b846-4f76-8966-e85e32060690" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 4</strong></p>
-      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/05.mp4" width="420" controls></video>
+      <video src="https://github.com/user-attachments/assets/8edd3ce0-aff7-4c2b-b782-0e89354d3f58" width="420" controls></video>
     </td>
   </tr>
   <tr>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 5</strong></p>
-      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/02.mp4" width="420" controls></video>
+      <video src="https://github.com/user-attachments/assets/611dc056-a1f2-4f0c-8cd1-9d8f2b49caf3" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 6</strong></p>
-      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/05_comparison_ood_scene/bottom_right_OURS.mp4" width="420" controls></video>
+      <video src="https://github.com/user-attachments/assets/bec543cf-ee37-44b0-91bd-1c8957381b08" width="420" controls></video>
     </td>
   </tr>
 </table>
 
 <div align="center">
+
+
+
+
 
 
 
