@@ -21,6 +21,8 @@
   <sup>2</sup>OPPO Research Institute
 </p>
 
+<h3 align="center">🚩 Accepted by NeurIPS 2026</h3>
+
 <h4 align="center">
   <a href="https://arxiv.org/abs/2604.18215" target="_blank">
     <img src="https://img.shields.io/badge/arXiv-2604.18215-b31b1b.svg">
@@ -32,7 +34,10 @@
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white">
   </a>
   <a href="https://huggingface.co/Guoyanjun/MemorizeWhenNeed" target="_blank">
-    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MemorizeWhenNeed-blue">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model%20Weights-blue" alt="Hugging Face model weights">
+  </a>
+  <a href="https://huggingface.co/datasets/Guoyanjun/MemorizeWhenNeeded-Eval" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Evaluation%20Data-blue" alt="Hugging Face evaluation data">
   </a>
   <a href="https://www.youtube.com/watch?v=oOJBvzUUw_U" target="_blank">
     <img src="https://img.shields.io/badge/%F0%9F%8E%A5%20Demo-Video-6A5ACD">
@@ -60,9 +65,12 @@
 
 
 ## 📰 News
+
+- **[2026.09]** Our paper has been accepted by **NeurIPS 2026**!
+- **[2026.09]** We release our evaluation dataset, including 42 RealEstate10K and 200 OOD samples [Hugging Face](https://huggingface.co/datasets/Guoyanjun/MemorizeWhenNeeded-Eval).
 - **[2026.04]** We release our paper on [arXiv](https://arxiv.org/abs/2604.18215).
 - **[2026.04]** We release model [Huggingface](https://huggingface.co/Guoyanjun/MemorizeWhenNeed) based on **Wan2.1**.
-- **[2026.04]** We release the test data on [Huggingface](https://huggingface.co/Guoyanjun/MemorizeWhenNeed) used in our paper to make easier evaluation.
+
 
 ## 🎥 Visual Results
 
@@ -75,41 +83,41 @@
   <tr>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>RealEstate10K Example 1</strong></p>
-      <video src="https://github.com/user-attachments/assets/f6051729-6a3a-4a78-813e-81f2a668eb7d" width="420" controls></video>
+      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/02_results_gallery/RealEstate10K_05.mp4" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>RealEstate10K Example 2</strong></p>
-      <video src="https://github.com/user-attachments/assets/cda44ab0-99e4-4ac7-a40d-a85926e2f921" width="420" controls></video>
+      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/02_results_gallery/RealEstate10K_06.mp4" width="420" controls></video>
     </td>
   </tr>
   <tr>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 1</strong></p>
-      <video src="https://github.com/user-attachments/assets/32e74a0b-b82c-472d-baed-b8ce0112f99f" width="420" controls></video>
+      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/06.mp4" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 2</strong></p>
-      <video src="https://github.com/user-attachments/assets/ef9942cb-477e-439d-bab8-cfd8982f1dd3" width="420" controls></video>
+      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/03.mp4" width="420" controls></video>
     </td>
   </tr>
   <tr>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 3</strong></p>
-      <video src="https://github.com/user-attachments/assets/9498c941-08c0-4c29-aeac-64ed0e4e6c4f" width="420" controls></video>
+      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/01.mp4" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 4</strong></p>
-      <video src="https://github.com/user-attachments/assets/3c354740-8256-4d3a-9057-84b568628456" width="420" controls></video>
+      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/05.mp4" width="420" controls></video>
     </td>
   </tr>
   <tr>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 5</strong></p>
-      <video src="https://github.com/user-attachments/assets/85c1377d-613a-4551-8724-c0e763a08645" width="420" controls></video>
+      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/01_ood_results_with_prompt/02.mp4" width="420" controls></video>
     </td>
     <td align="center" style="border: none; padding: 8px;">
       <p><strong>OOD Example 6</strong></p>
-      <video src="https://github.com/user-attachments/assets/fb07e86f-c9fb-40e3-b3c2-82e131ce7377" width="420" controls></video>
+      <video src="https://iguoyanjun.github.io/memorize-when-needed-project-page/static/results/05_comparison_ood_scene/bottom_right_OURS.mp4" width="420" controls></video>
     </td>
   </tr>
 </table>
@@ -121,6 +129,7 @@
 *Watch our [YouTube demo video](https://www.youtube.com/watch?v=oOJBvzUUw_U) for additional examples and side-by-side comparisons with other methods.*
 
 </div>
+
 
 
 ## 📖 **Abstract**
