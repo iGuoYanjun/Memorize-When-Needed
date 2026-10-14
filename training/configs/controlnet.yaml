@@ -1,0 +1,15 @@
+added_kv_proj_dim: null
+attention_head_dim: 128
+cross_attn_norm: true
+eps: 1.0e-6
+ffn_dim: 8960
+freq_dim: 256
+num_attention_heads: 24
+patch_size: [1, 2, 2]
+qk_norm: rms_norm_across_heads
+rope_max_seq_len: 1024
+text_dim: 4096
+in_channels: 6
+num_layers: 8
+downscale_coef: 8
+out_proj_dim: 5120
