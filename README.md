@@ -67,6 +67,7 @@
 
 ## 📰 News
 
+- **[2026.10]** We release our [training code](training/)
 - **[2026.09]** Our paper has been accepted by **NeurIPS 2026**!
 - **[2026.09]** We release our evaluation dataset, including 42 RealEstate10K and 200 OOD samples [Hugging Face](https://huggingface.co/datasets/Guoyanjun/MemorizeWhenNeeded-Eval).
 - **[2026.04]** We release our paper on [arXiv](https://arxiv.org/abs/2604.18215).
@@ -249,6 +250,12 @@ The text prompt has a clear impact on generation quality, so we recommend using 
 
 The generated videos are saved under `OUTPUT_DIR`.
 
+
+## 🏋️ Training
+
+Download the RealEstate10K subset of [MuteApo/RealCam-Vid](https://huggingface.co/datasets/MuteApo/RealCam-Vid/tree/main/zip/RealEstate10K) from Hugging Face for training.
+
+For training instructions, please refer to [training/README.md](training/README.md).
 
 ## 🔗 BibTeX
 ```
